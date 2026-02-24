@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>11. Button</title>
+    </head>
+    <body>
+        <a href="https://google.com" target="_blank">
+            <button style="font-size: 25px; background-color: gray; color:aquamarine; border-radius: 25px;">Click me</button>
+        </a>
+        <br>
+        <br>
+
+        <button onclick="onClick()" style="font-size: 25px; background-color: gray; color:aquamarine; border-radius: 25px;">Execute function</button>
+        <p id="SomeText">Some text</p>
+        <script>
+            function onClick() {
+                document.getElementById("SomeText").innerHTML = "Hello"
+            }
+        </script>
+    </body>
+</html>
